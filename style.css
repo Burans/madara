@@ -24,17 +24,23 @@ body {
   font-synthesis-weight: none;
 }
 
-/* Intro */
+/* Intro: a full opening screen, text centred in it. */
 .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  min-height: 70svh;
   max-width: 52rem;
   margin: 0 auto var(--gap);
   text-align: center;
-  font-size: 1.25em;
+  font-size: clamp(1.15em, 2.1vw, 2em);
 }
 
 .intro h1 {
-  margin: 0 0 0.5em;
-  font-size: 1.15em;
+  margin: 0 0 0.6em;
+  font-size: 1.1em;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
