@@ -34,6 +34,7 @@ body {
   min-height: 70svh;
   max-width: 52rem;
   margin: 0 auto var(--gap);
+  padding-inline: calc(var(--gap) * 1.5);
   text-align: center;
   font-size: clamp(1.15em, 2.1vw, 2em);
 }
@@ -78,9 +79,4 @@ footer {
 
 footer p { margin: 0; }
 
-/* Phones: everything in one column. */
-@media (max-width: 34rem) {
-  .grid { grid-template-columns: minmax(0, 1fr); }
-  .grid .wide { grid-column: auto; }
-}
 
