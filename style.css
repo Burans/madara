@@ -32,7 +32,7 @@ body {
   align-items: center;
   min-height: 70vh;
   min-height: 70svh;
-  max-width: 52rem;
+  max-width: 50ch;
   margin: 0 auto var(--gap);
   padding-inline: calc(var(--gap) * 1.5);
   text-align: center;
@@ -41,7 +41,7 @@ body {
 
 .intro h1 {
   margin: 0 0 0.6em;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ body {
   margin: 0;
   line-height: 1.5;
   color: var(--muted);
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 /* Grid: verticals sit two-up, horizontals span the full width. */
@@ -78,5 +78,3 @@ footer {
 }
 
 footer p { margin: 0; }
-
-
